@@ -1,5 +1,9 @@
 return function (val)
 	return function (cases)
-		return cases[val] or cases.default
+		if cases[val] ~= nil then
+			return cases[val]
+		else
+			return cases.default
+		end
 	end
 end

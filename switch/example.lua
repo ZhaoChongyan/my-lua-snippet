@@ -18,4 +18,4 @@ switch(5) {
 	[5] = function ()
 		print("Hello, world!")
 	end
-}()
+}
