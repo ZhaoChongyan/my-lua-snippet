@@ -13,3 +13,9 @@ print(switch(1) {
 print(switch(nil) {
 	default = "Hello, world!"
 })
+
+switch(5) {
+	[5] = function ()
+		print("Hello, world!")
+	end
+}()
